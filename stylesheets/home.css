@@ -1,0 +1,46 @@
+.home-header {
+  background-color: #f8f8f8;
+}
+
+.home-header .content {
+  position: relative;
+  max-width: 1545px;
+  /* min-height: 920px; */
+  padding: 0px 5px;
+}
+
+.home-header h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  font-size: 45em;
+  text-align: center;
+  color: #575153;
+  z-index: 2;
+}
+
+.home-header img {
+  margin-left: 15%;
+  max-width: 100%;
+}
+
+.home-header .ave-btn {
+  position: absolute;
+  bottom: 12%;
+  right: 16%;
+}
+
+@media screen and (max-width: 1200px) {
+  .home-header h2 {
+    font-size: 29.13vw;
+  }
+
+  .home-header img {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
