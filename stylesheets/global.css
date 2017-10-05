@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+}
+
+.top-nav {
+  background-color: #333333;
+  color: #999999;
+}
+
+.content {
+  margin: 0 auto;
+}
+
+.top-nav .content {
+  max-width: 1170px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.option {
+  cursor: pointer;
+  font-size: 1.3em;
+  transition: background-color 700ms, color 700ms;
+}
+
+.top-nav .option {
+  padding: 12px 20px;
+}
+
+.top-nav .option.space-left {
+  margin-left: 45px;
+}
+
+.top-nav .option:hover {
+  background-color: #00c8c8;
+  color: white;
+}
+
+.bottom-nav .content {
+  padding: 30px 10px;
+  max-width: 1790px;
+}
+
+h1 {
+  font-size: 2.4em;
+  display: inline-block;
+}
+
+.bottom-nav .option {
+  position: relative;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.bottom-nav .option:hover,
+.bottom-nav .option:hover .fa-chevron-down {
+  margin-right: 50px;
+  color: #00c8c8;
+}
+
+.options,
+.search {
+  display: inline-block;
+}
+
+.search {
+  position: relative;
+}
+
+#search-box {
+  padding: 5px;
+  border: 1px solid #e7e7e7;
+}
+
+.search::after {
+  content: url("../images/global/search-icon.png");
+  position: absolute;
+  right: 10px;
+  top: 7px;
+}
+
+.top-footer {
+  background-color: #f8f8f8;
+}
+
+.bottom-footer {
+  background-color: #333333;
+  font-size: 1.3em;
+}
+
+footer .content {
+  max-width: 1170px;
+}
+
+.bottom-footer .content {
+  padding: 15px 5px;
+  color: #999999;
+}
+
+.bottom-footer .space-left {
+  margin-left: 36px;
+}
+
+.top-footer .content {
+  padding: 55px 5px 50px;
+}
+
+.more-links-container {
+  margin-bottom: 50px;
+}
+
+.more-links {
+  display: inline-block;
+  margin-right: 77px;
+  vertical-align: top;
+}
+
+.more-links p {
+  color: #575153;
+  margin-bottom: 30px;
+  font-size: 1.3em;
+}
+
+.more-links a,
+.more-links span {
+  display: block;
+  text-decoration: unset;
+  font-size: 1.4em;
+  color: #727272;
+  margin-bottom: 15px;
+  transition: color 700ms;
+}
+
+.more-links a:hover,
+.more-links span:hover {
+  cursor: pointer;
+  color: #00c8c8;
+}
+
+.socials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+}
+
+.social {
+  position: relative;
+  background-color: #333333;
+  min-height: 200px;
+  transition: background-color 700ms;
+  cursor: pointer;
+}
+
+.social:hover {
+  background-color: #00c8c8;
+}
+
+.inner-social {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 3.6em;
+  text-align: center;
+  width: 100%;
+}
+
+.top-nav .fa-chevron-down {
+  margin-left: 8px;
+  font-size: 0.6em;
+  vertical-align: 2.8px;
+}
+
+.top-nav .fa-shopping-cart {
+  margin-right: 18px;
+  font-size: 1.2em;
+}
+
+.inner-social .fa {
+  margin: 0px 25px;
+}
+
+.bottom-nav .fa-chevron-down {
+  position: absolute;
+  color: #989898;
+  font-size: 0.6em;
+  top: 20px;
+  left: 0;
+  transition: color 700ms;
+}
+
+.bottom-nav .option-modal {
+  display: none;
+  position: absolute;
+  background-color: #f8f8f8;
+  box-shadow: 8px 15px 24px 0px rgba(0, 0, 0, 0.14);
+  z-index: 1;
+  padding: 40px 30px;
+  width: 467px;
+  font-size: 10px;
+  top: 50px;
+  cursor: default;
+}
+
+.bottom-nav .option:hover .option-modal {
+  display: block;
+}
+
+.option-modal .more-links {
+  margin-right: 50px;
+  padding: 0;
+}
+
+.option-modal .advertisement {
+  position: relative;
+  background-color: #333333;
+  padding: 35px;
+  margin-top: 40px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+  font-size: 3.6em;
+  transition: background-color 700ms;
+}
+
+.option-modal .advertisement:hover {
+  background-color: #00c8c8;
+}
+
+@media screen and (max-width: 640px) {
+  .more-links {
+    display: block;
+    padding: 20px 20%;
+    margin: 0;
+  }
+
+  .socials {
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+
+  .option-modal {
+    width: 300px;
+  }
+
+  .option-modal .more-links {
+    margin: 0;
+    margin-top: 30px;
+  }
+}
