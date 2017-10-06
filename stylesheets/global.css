@@ -76,9 +76,15 @@ h1 {
   margin-right: 50px;
 }
 
-.bottom-nav .option:hover,
-.bottom-nav .option:hover .fa-chevron-down {
-  margin-right: 50px;
+.bottom-nav .option a {
+  text-decoration: unset;
+  color: #222222;
+  transition: color 700ms;
+}
+
+.bottom-nav .option a:hover,
+.bottom-nav .option:hover .fa-chevron-down,
+.bottom-nav .option a.active {
   color: #00c8c8;
 }
 
