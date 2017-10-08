@@ -162,6 +162,7 @@ footer .content {
 }
 
 .more-links a:hover,
+.more-links a.active,
 .more-links span:hover {
   cursor: pointer;
   color: #00c8c8;
