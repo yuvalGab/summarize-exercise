@@ -1,0 +1,36 @@
+.stores .content {
+  max-width: 1180px;
+  padding: 60px 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.store h5 {
+  color: #575153;
+  font-size: 1.8em;
+  margin-bottom: 26px;
+}
+
+.store h6 {
+  color: #727272;
+  font-size: 1.3em;
+  margin-bottom: 18px;
+}
+
+.store p {
+  color: #8e8c8c;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .stores .content {
+    grid-template-columns: 1fr;
+  }
+
+  .store {
+    text-align: center;
+  }
+}
