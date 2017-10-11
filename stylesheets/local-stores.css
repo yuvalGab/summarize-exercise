@@ -7,22 +7,102 @@
   grid-row-gap: 30px;
 }
 
-.store h5 {
+.local-stores h5 {
   color: #575153;
   font-size: 1.8em;
   margin-bottom: 26px;
 }
 
-.store h6 {
+.local-stores h6 {
   color: #727272;
   font-size: 1.3em;
   margin-bottom: 18px;
 }
 
-.store p {
+.local-stores p {
   color: #8e8c8c;
   font-size: 1.5em;
   margin-bottom: 30px;
+}
+
+.store-info .content {
+  max-width: 2050px;
+  margin-bottom: 124px;
+  padding: 0px 5px;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.store-info .map {
+  position: relative;
+  display: inline-block;
+  width: 67%;
+}
+
+.store-info .map img {
+  width: 100%;
+}
+
+.store-info .map .fa-map-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #00c8c8;
+  font-size: 3.6em;
+}
+
+.store-info .info {
+  display: inline-block;
+  padding: 40px;
+  vertical-align: top;
+  width: 32%;
+}
+
+.more-info {
+  margin-top: 30px;
+  margin-bottom: 44px;
+}
+
+.more-info div {
+  display: block;
+  margin-bottom: 16px;
+  color: #8e8c8c;
+}
+
+.more-info i {
+  font-size: 1.8em;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.more-info span {
+  font-size: 1.4em;
+}
+
+.social-links div {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #727272;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 12px;
+  transition: background-color 700ms;
+}
+
+.social-links div:hover {
+  background-color: #00c8c8;
+}
+
+.social-links i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.8em;
 }
 
 @media screen and (max-width: 1000px) {
@@ -32,5 +112,17 @@
 
   .store {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .store-info .map {
+    display: block;
+    width: 100%;
+  }
+
+  .store-info .info {
+    display: block;
+    width: 100%;
   }
 }
