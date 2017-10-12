@@ -10,6 +10,7 @@ html,
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 10px;
+  overflow-x: hidden;
 }
 
 .top-nav {
@@ -225,7 +226,7 @@ footer .content {
   position: absolute;
   background-color: #f8f8f8;
   box-shadow: 8px 15px 24px 0px rgba(0, 0, 0, 0.14);
-  z-index: 3;
+  z-index: 4;
   padding: 40px 30px;
   width: 467px;
   font-size: 10px;
@@ -240,6 +241,16 @@ footer .content {
 .option-modal .more-links {
   margin-right: 50px;
   padding: 0;
+}
+
+.option-modal .more-links p {
+  color: #575153;
+  font-size: 1.2em;
+}
+
+.option-modal .more-links a {
+  color: #727272;
+  font-size: 1.4em;
 }
 
 .option-modal .advertisement {
