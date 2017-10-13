@@ -19,11 +19,11 @@
   position: relative;
 }
 
-.the-product .slider img {
+.slider img {
   width: 100%;
 }
 
-.the-product .slider .actions {
+.slider .actions {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -34,17 +34,65 @@
   transition: all 700ms;
 }
 
-.the-product .slider .actions:hover {
+.slider .actions:hover {
   color: white;
   background-color: #00c8c8;
 }
 
-.the-product .slider .next {
+.slider .next {
   right: 0;
   padding-left: 15px;
 }
 
-.the-product .slider .previous {
+.slider .previous {
   left: 0;
   padding-right: 15px;
+}
+
+.purchase h5 {
+  color: #575153;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.purchase .reviews span {
+  margin-right: 12px;
+}
+
+.purchase .stars i {
+  font-size: 1.6em;
+  color: #dfdfde;
+}
+
+.purchase .stars i.mark {
+  color: #ded3aa;
+}
+
+.purchase .reviews .text {
+  color: #727272;
+  font-size: 1.4em;
+}
+
+.purchase .reviews .add-review,
+.purchase .reviews .icon {
+  transition: color 700ms;
+}
+
+.purchase .reviews .add-review:hover {
+  cursor: pointer;
+  color: #00c8c8;
+}
+
+.purchase .reviews .share {
+  color: #8c8c8c;
+}
+
+.purchase .reviews .icon {
+  color: #8c8c8c;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+.purchase .reviews .icon:hover {
+  color: #00c8c8;
 }
