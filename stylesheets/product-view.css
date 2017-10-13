@@ -96,3 +96,149 @@
 .purchase .reviews .icon:hover {
   color: #00c8c8;
 }
+
+.purchase .price {
+  color: #9a9a9a;
+  font-size: 3em;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+.purchase .price span {
+  text-decoration: line-through;
+  margin-right: 14px;
+}
+
+.purchase .general-info span {
+  color: #8c8c8c;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.purchase .general-info strong {
+  color: #575153;
+  font-size: 13px;
+}
+
+.purchase .general-info span.tag {
+  color: #00c8c8;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+.purchase .general-info > div {
+  margin-bottom: 16px;
+}
+
+.purchase .general-info {
+  margin-bottom: 18px;
+}
+
+.purchase .specification {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  line-height: 22px;
+}
+
+.purchase .specification p {
+  color: #8e8c8c;
+  margin-bottom: 15px;
+}
+
+.purchase .specification ul {
+  color: #cccccc;
+  list-style-position: inside;
+  margin-bottom: 40px;
+}
+
+.purchase .properties {
+  margin-bottom: 50px;
+}
+
+.purchase .properties > div {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.purchase .properties p {
+  font-size: 1.3em;
+  color: #575153;
+  margin-bottom: 12px;
+}
+
+.purchase .properties select {
+  font-size: 1.3em;
+  width: 160px;
+  padding: 5px;
+}
+
+.purchase .properties input {
+  font-size: 1.3em;
+  width: 50px;
+  padding: 4px;
+}
+
+.purchase .actions {
+  margin-bottom: 30px;
+}
+
+.purchase .actions button {
+  color: #454647;
+  font-size: 1.6em;
+  padding: 12px 24px;
+  border: 1px solid #333333;
+  cursor: pointer;
+  background-color: unset;
+  transition: all 700ms;
+}
+
+.purchase .actions button:hover {
+  color: white;
+  background-color: #333333;
+}
+
+.purchase .actions button:nth-child(1) {
+  margin-right: 25px;
+}
+
+.purchase .actions button i {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.purchase .compare > div {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #727272;
+  width: 30px;
+  height: 30px;
+  margin-right: 14px;
+  vertical-align: -9px;
+  cursor: pointer;
+}
+
+.purchase .compare > div i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.7em;
+}
+
+.purchase .compare > span {
+  color: #454647;
+  font-size: 1.4em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .the-product .content {
+    grid-template-columns: 1fr;
+  }
+
+  .the-product .desc {
+    grid-column: 1 / 2;
+  }
+}
