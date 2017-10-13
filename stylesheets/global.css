@@ -58,6 +58,15 @@ body {
   color: white;
 }
 
+.top-nav .option a {
+  text-decoration: unset;
+  color: inherit;
+}
+
+.top-nav .option a.active {
+  color: #00c8c8;
+}
+
 .bottom-nav .content {
   padding: 30px 10px;
   max-width: 1790px;
