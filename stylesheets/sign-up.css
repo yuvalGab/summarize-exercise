@@ -1,0 +1,84 @@
+.account .content {
+  max-width: 1180px;
+  padding: 60px 5px 120px;
+}
+
+.sign-in,
+.register {
+  float: left;
+  width: 50%;
+}
+
+.sign-in {
+  padding-right: 30px;
+  border-right: 1px solid #eeeeee;
+}
+
+.register {
+  padding-left: 30px;
+}
+
+.account h5 {
+  color: #575153;
+  font-size: 1.8em;
+  margin-bottom: 45px;
+}
+
+.account .field {
+  display: block;
+  width: 100%;
+  padding: 4px 5px;
+  margin-bottom: 32px;
+  color: #989898;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.account .field:invalid {
+  border: 1px solid #bb5465;
+  background-color: rgba(187, 84, 101, 0.05);
+}
+
+.account .note {
+  float: right;
+  margin-top: 24px;
+  font-size: 1.5em;
+  color: #8e8c8c;
+  font-family: "Roboto", sans-serif;
+}
+
+.account .note a {
+  text-decoration: unset;
+  color: #00c8c8;
+}
+
+.account label {
+  display: block;
+  margin-bottom: 32px;
+  color: #8e8c8c;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+}
+
+.account label input {
+  vertical-align: middle;
+  margin-right: 14px;
+  border: 1px solid #e7e7e7;
+  background-color: rgba(51, 51, 51, 0);
+  width: 24px;
+  height: 24px;
+}
+
+@media screen and (max-width: 1000px) {
+  .sign-in,
+  .register {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .sign-in {
+    padding: 0px 30px 4 0px;
+    border-right: unset;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
