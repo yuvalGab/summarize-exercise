@@ -244,10 +244,6 @@ footer .content {
   cursor: default;
 }
 
-.bottom-nav .option:hover .option-modal {
-  display: block;
-}
-
 .option-modal .more-links {
   margin-right: 50px;
   padding: 0;
