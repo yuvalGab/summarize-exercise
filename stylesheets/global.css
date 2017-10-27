@@ -81,6 +81,10 @@ h1 {
   display: inline-block;
 }
 
+h1 > span {
+  font-weight: 400;
+}
+
 .bottom-nav .option {
   position: relative;
   display: inline-block;
